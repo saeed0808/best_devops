@@ -1,4 +1,20 @@
-Terraform snippet for deploying ASG in private subnet behind ALB
+=> You’re the new and only DevOps Engineer of a startup company. The company needs to run a webserver on AWS using infrastructure as code.
+
+=> Launch a webserver on an EC2 instance with the following config:
+
+- Must be allowed to read files from an S3 bucket you’ve created.
+- Inside an autoscaling group with scaling policies
+-
+          - scale-in: CPU utilization > 80%
+          - scale-out: CPU utilization < 60%
+          - minimum number of instances = 1
+          - maximum number of instances = 3
+          
+- Inside a private subnet
+- Under a public load balancer
+- Install a webserver NGINX through bootstrapping
+- The webserver should be accessible only through the load balancer
+
 
 Below is the architecture to be implemented
 
