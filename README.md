@@ -44,6 +44,8 @@ Terraform & AWS CLI configured on machine from which the scripts are to be run
          terraform apply;
          
          It will ask Enter a value: type yes and press enter
+         
+         Enter a value: yes
 
 
 Note: if you get any error please read carefully and troubleshoot if still any issue or consern reachout to me directly shared contact details same.
