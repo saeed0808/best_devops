@@ -23,7 +23,6 @@ Below is the architecture to be implemented
 
 1. main.tf: main.tf file contains the terraform script to create necessary resources.
 2. variables.tf: for declaring variables being used in the main script.
-3. terraform.tfvars: for defining/overriding the varibles.
 4. init_webserver.sh: User data script for launch config which installs & starts nginx server or awscli and creates mount points.
 
 
@@ -41,17 +40,23 @@ Terraform & AWS CLI configured on machine from which the scripts are to be run
          git clone https://github.com/saeed0808/best_devops/;
          cd best_devops;
          terraform init;
+         terraform plan;
          terraform apply;
+         
+         It will ask Enter a value: type yes and press enter
 
 
 Note: if you get any error please read carefully and troubleshoot if still any issue or consern reachout to me directly shared contact details same.
 
 4. After it's done deploying, the example you will get output DNS url curl it or check in browser output shot be showing Hello World
-        Example:  curl XXXXXXXXXXXXXXX
-        
+5.  ![image](https://user-images.githubusercontent.com/46480999/169030542-2eddc7c8-a089-41c5-ade9-c854091586aa.png)
+
+ Example:  curl Demo-ALG-tf-831906437.ap-south-1.elb.amazonaws.com
+     
         output: Hello World
 
 To clean up and delete all resources after you're done, run 
          
          terraform destroy
+         Enter a value: yes
 
