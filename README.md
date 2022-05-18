@@ -32,7 +32,8 @@ AWS account
 IAM role with necessary permissions
 Terraform & AWS CLI configured on machine from which the scripts are to be run
 
-################# steps for setup ##################
+################# steps for setup ##################Infra setup default region is ap-south-1
+
 1. aws cli setup configure profile with name of devops.
 2. Terraform install on which laptop/server you will be using to cloning and running code.
 3. commands:
