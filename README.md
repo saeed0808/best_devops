@@ -21,18 +21,21 @@ Terraform & AWS CLI configured on machine from which the scripts are to be run
 1. aws cli setup configure profile with name of devops.
 2. Terraform install on which laptop/server you will be using to cloning and running code.
 3. commands:
-         git clone https://github.com/saeed0808/best_devops/
-         cd best_devops
-         terraform init
-         terraform apply
+
+         git clone https://github.com/saeed0808/best_devops/;
+         cd best_devops;
+         terraform init;
+         terraform apply;
 
 
 Note: if you get any error please read carefully and troubleshoot if still any issue or consern reachout to me directly shared contact details same.
 
 4. After it's done deploying, the example you will get output DNS url curl it or check in browser output shot be showing Hello World
-Example:  curl XXXXXXXXXXXXXXX
-output: Hello World
+        Example:  curl XXXXXXXXXXXXXXX
+        
+        output: Hello World
 
 To clean up and delete all resources after you're done, run 
-           terraform destroy
+         
+         terraform destroy
 
