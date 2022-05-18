@@ -37,7 +37,7 @@ Terraform & AWS CLI configured on machine from which the scripts are to be run
 2. Terraform install on which laptop/server you will be using to cloning and running code.
 3. commands:
 
-         git clone https://github.com/saeed0808/best_devops/;
+         git clone https://github.com/saeed0808/best_devops.git;
          cd best_devops;
          terraform init;
          terraform plan;
